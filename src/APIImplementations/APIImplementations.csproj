@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Composition" Version="1.0.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APISurface\APISurface.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+  <OutputPath>..\lib\</OutputPath>
+  </PropertyGroup>
+</Project>
